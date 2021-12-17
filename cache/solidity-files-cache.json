@@ -37,8 +37,8 @@
       ]
     },
     "/Users/EmilyHPark_1/Coding/emcoin/contracts/Counter.sol": {
-      "lastModificationDate": 1639697728166,
-      "contentHash": "f7c492c038677338c869614e19d18a86",
+      "lastModificationDate": 1639706992525,
+      "contentHash": "7c8c6525d9780399692eec2395125f46",
       "sourceName": "contracts/Counter.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -106,6 +106,41 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/Users/EmilyHPark_1/Coding/emcoin/contracts/TestGas.sol": {
+      "lastModificationDate": 1639756886553,
+      "contentHash": "0a4838c3237c4190ce1768a8e8ebd6ca",
+      "sourceName": "contracts/TestGas.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestGas"
       ]
     }
   }
